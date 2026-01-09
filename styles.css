@@ -1,0 +1,25 @@
+.container{
+    max-width: 1600;
+
+}
+.openingbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+.openingbar ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+.openingbar ul a{
+    text-decoration: none;
+}    
+.btn{
+    padding: 12px 16px;
+    color: white;
+    background-color: 
+#30B868;
+    border-radius: 4px;
+}
+   
