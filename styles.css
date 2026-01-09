@@ -1,25 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
 .container{
     max-width: 1600;
+    margin:0 auto;
 
 }
-.openingbar{
+.navbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 15px 120px;
     }
-.openingbar ul{
+
+.navbar ul{
     list-style: none;
     display: flex;
     gap: 32px;
 }
-.openingbar ul a{
+.navbar ul a{
     text-decoration: none;
 }    
 .btn{
     padding: 12px 16px;
+    font-weight: 600;
+    font-size: 16;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
     color: white;
-    background-color: 
-#30B868;
+    background-color: #30b839;
     border-radius: 4px;
+    cursor: pointer;
+}
+.btn2{
+    border-radius: 2000px;
+    padding: 8px 15px;
+    color: #30b839;
+    cursor: pointer;}
+.btn3{
+    padding: 12px 16px;
+    font-weight: 600;
+    font-size: 16;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.hero{
+    max-width: 1600px;
+    min-height: 674px;
+    padding: 70px 120px 135px;
+    background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-content .hero-heading1{
+    font-size: 75px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 85px;
+}
+.hero-content .hero-heading2{
+    font-size: 75px;
+    font-weight: 700;
+    color: #30b839;
+    line-height: 85px;
+}
+.hero-content p{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    margin: 16px auto;
+}
+.buttons{
+    gap: 16px;
 }
    
