@@ -134,7 +134,7 @@
     gap: 16px;
     max-width: 322px;
     min-height: 300px;
-    box-shadow: 8px 0 20px rgba(0, 0, 0, 0.032);
+   /* box-shadow: 8px 0 10px rgba(0, 0, 0, 0.032);*/
     }
 #card-box .section-cards img{
     background-color: #F95555;
@@ -153,4 +153,56 @@
     font-size: 14px;
     color: #82627d;
     max-width: 240px;
+}
+.second-brain{
+    display: flex;
+    margin: 120px;
+    gap: 60px;
+} 
+.second-brain .brain-image{
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+}
+.brain-content{
+    margin-top: 102px;
+    margin-bottom: 102px;
+    min-height: 336px;
+    max-width: 700px;
+    text-align: left;
+}
+.brain-content #brain-instruction{
+    gap: 18px;
+}
+.brain-content h6{
+    font-size: 14px;
+    line-height: 20px;
+    color: #30b839;
+}
+.brain-content h1{
+    font-size: 35px;
+    line-height: 58px;
+}
+.brain-content #section-text{
+    font-size: 14px;
+    line-height: 20px;
+    color: #627382;
+}
+
+.second-brain .brain-tips{
+    font-size: 16px;
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+    gap: 16px;
+}
+.brain-tips img{
+    height: 16px;
+    width: 16px;
+    margin-right: 3px;
+}
+.brain-content p{
+    display: flex;
+    align-items: center;
 }
