@@ -53,6 +53,11 @@
     border: 2px solid white;
     border-radius: 4px;
     cursor: pointer;}
+.btn3.play{
+    background-color: transparent;
+    display: inline-flex;
+    gap: 10px;
+}
 
 .hero{
     max-width: 1600px;
@@ -60,8 +65,8 @@
     padding: 70px 120px 135px;
     background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;}
+    background-size: contain;
+    }
 .hero-content{
     display: flex;
     flex-direction: column;
@@ -225,3 +230,45 @@
 .early-access .btn.last-btn{
     margin-bottom: 20px;
 }
+footer{
+    max-width: 1600px;
+    min-height: 348px;
+    background-color: #0F172A;
+}
+.end-section{
+    padding: 120px 120px 30px 120px;
+    gap: 80px;
+}
+.end-section #footer-first{
+    display: flex;
+    justify-content: space-between;
+}
+.end-section h6 {
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.end-section p{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+}
+.end-section #copyright-section{
+    text-align: center;
+    margin-top: 80px;
+}
+.end-social #media-icons a{
+    display: inline-flex;
+     align-items: center;
+     justify-content: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    margin-right: 16px;
+    
+}
+
