@@ -206,3 +206,22 @@
     display: flex;
     align-items: center;
 }
+.early-access {
+    margin: 2px auto;
+    padding: 80px 40px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.early-access h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.early-access p{
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.early-access .btn.last-btn{
+    margin-bottom: 20px;
+}
